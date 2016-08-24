@@ -22,5 +22,6 @@ import { LoginModule }   from './login/login.module';
   [ 
     AppComponent 
   ]
+  
 })
 export class AppModule { }
