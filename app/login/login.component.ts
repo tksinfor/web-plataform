@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'login-component',
-    template: '<h1>My First Angular 2 App</h1>'
+    moduleId:    module.id,
+    selector:    'login-component',
+    templateUrl: 'login.component.html',
+    styleUrls:   ['login.component.css']
 })
-export class LoginComponent { }
+export class LoginComponent {
+    title = 'Routing Works!!';
+ }
